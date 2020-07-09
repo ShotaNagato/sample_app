@@ -9,6 +9,10 @@ gem 'bootstrap-sass'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use mysql as the database for Active Record
 
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
