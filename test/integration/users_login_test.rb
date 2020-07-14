@@ -39,5 +39,6 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   delete logout_path
   # クッキーを削除してログイン
   log_in_as(@user, remember_me:'0')
+  assert_empty cookies['remember_token']
  end
 end
